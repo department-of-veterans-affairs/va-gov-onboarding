@@ -1,49 +1,40 @@
-#   Tutorial: Make a New Widget
+#   Tutorial: Make a New VA.gov React Widget
 
-*As a* developer  
-*I want* to learn how to make a widget  
-*so that* I can be a productive team member
+*As a* frontend developer  
+*I want* to learn how to make a VA.gov React widget  
+*so that* I can understand how to build one of the types of features on VA.gov
 
 **Acceptance Criteria**
 
-1.  A new "Hello World" widget is accessible when I run `vets-website` in my development environment
-1.  I am ready to develop a full-featured widget
-1.  I am confident the pull request to merge my full-featured widget will be merged
+1.  I can view a new "Hello World" widget when I run `vets-website` locally
+1.  I understand how to develop a widget
 
 ##  Prerequisites
 
-1.  All work will take place in the `vets-website` repository
-1.  You should have a cursory understanding of JavaScript, JavaScript bundling, React, and the DOM
+1.  The `vets-website` repository is cloned locally
+1.  Familiarity with JavaScript, JavaScript bundling, React, and the DOM
 
-##  What is a Widget?
+##  What is a VA.gov React Widget?
 
-A Widget is a small react application that is mounted to a DOM element on an existing static page. This differs from an "Applicaton," in that an Application represents an entire page between the header and footer of VA.gov.
+A VA.gov React Widget ("Widget") is a small React component that is mounted into a `<div>` on a static content page. A static content page is an HTML page whose content is provided by a Content Management System (CMS). A Widget differs from a VA.gov "Application" which fills an entire page between the header and footer of VA.gov.
 
-##  The `static-pages` Application
+##  The Widget Application
 
-Within `vets-website` there is an Application called `static-pages`. This Application contains subdirectories in which all code widget is stored.
+Within `vets-website` there is an application called `static-pages`. Widgets are defined in subdirectories of the `static-pages` application.
 
-`static-pages` is not like other Applications: it does not produce a single-page application that lives between the header and footer of VA.gov. Instead, it produces a bundle that is loaded into every page on VA.gov called `static-pages.entry.js`. This bundle includes code that allows each widget to decide whether or not to load themselves into that page using the "conditional mounting" pattern.
+`static-pages` is not like other applications: it does not produce a single-page application that lives between the header and footer of VA.gov. Instead, it produces a JavaScript bundle called `static-pages.entry.js` that is loaded into every static content page on VA.gov. This bundle contains logic that allows each widget to decide whether or not to load themselves into that page using the "conditional widget mounting" pattern.
 
-##  The "Conditional Mounting" Pattern
+##  The Conditional Widget Mounting Pattern
 
-Widgets are conditionally mounted to a DOM element on an existing page using a "conditional mounting" pattern.
+Widgets are conditionally mounted into a `<div>` on a static content page using a standardized conditional mounting pattern.
 
-This pattern is implemented as follows:
+These are the steps to implement the pattern:
 
-1.  Each widget implements a `create` function which looks for a DOM element based on a unqiue, widget-specific attribute value, for example, a `<div data-widget-type=my-widget>`.
-    1.  If the DOM element is not found the `create` function returns.
-    1.  Otherwise, the `create` function mounts the widget to the DOM element, and imports the widget's bundle.
-1.  The `static-pages` entrypoint invokes every widget's `create` function
-1.  The `static-pages.entry.js` bundle is added to every page
-
-In summary, every page gives every widget a chance to mount itself. Widgets don't need to know which pages they are associated to, so the dependency is unidirectional (pages depend on widgets, widgets don't depend on pages).
-
-This pattern:
--   Allows for re-usability of widgets across pages
--   Maintains consistency in widget scaffolding
--   Has minimal impact on page load time, since the `static-pages.entry.js` bundle only contains the code to conditionally mount widgets, and not the widget bundles themselves
--   Is simple: widgets try to load themselves on every page
+1.  Each widget implements a `create` function that searches for a `<div>` based on a unique, `widget-type` HTML data attribute value, e.g.: `<div data-widget-type="my-widget"/>`.
+    *  If the `<div>` is not found the function does not mount the widget
+    *  Otherwise, the function loads the widget's bundle and then mounts the widget
+1.  The `static-pages` application is responsible for calling every widget's `create` function
+1.  The `static-pages.entry.js` bundle is loaded on every static content page
 
 ##  Scaffolding a Widget
 
