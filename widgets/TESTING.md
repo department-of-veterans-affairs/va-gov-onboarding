@@ -88,4 +88,4 @@ Running `vets-website` to interact with your widget is a great way to develop yo
 
 You're ready to mount your widget into a static content page.
 
-[Continue to Testing](./FINISH.md)
+[Continue to Finish](./FINISH.md)

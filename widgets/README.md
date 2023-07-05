@@ -1,7 +1,7 @@
 #   Tutorial: Make a New VA.gov React Widget - Introduction
 
-*As a* frontend developer  
-*I want* to learn how to make a VA.gov React widget  
+*As a* frontend developer
+*I want* to learn how to make a VA.gov React widget
 *so that* I can understand how to build one of the types of features on VA.gov
 
 **Acceptance Criteria**
@@ -40,4 +40,4 @@ These are the steps to implement the pattern:
 
 You're ready to begin building your widget. You'll start by scaffolding it, by implementing the conditional widget mounting pattern.
 
-[Continue to Scaffolding](./SCAFFOLDING-A-WIDGET.md)
+[Continue to Scaffolding](./SCAFFOLDING.md)
