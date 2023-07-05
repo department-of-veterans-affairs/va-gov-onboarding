@@ -60,16 +60,16 @@ import ReactDOM from 'react-dom';
 import widgetTypes from '../widgetTypes';
 
 export const createHelloWorldWidget = async () => {
-    const container = document.querySelector(
-        `div[data-widget-type="${widgetTypes.HELLO_WORLD}"]`,
-    );
-    if (!container) {
-        return;
-    }
+  const container = document.querySelector(
+    `div[data-widget-type="${widgetTypes.HELLO_WORLD}"]`,
+  );
+  if (!container) {
+      return;
+  }
 
-    const { HelloWorldWidget } =
-        await import(/* webpackChunkName: "hello-world" */ './components/HelloWorldWidget');
-    ReactDOM.render(<HelloWorldWidget/>, container);
+  const { HelloWorldWidget } =
+      await import(/* webpackChunkName: "hello-world" */ './components/HelloWorldWidget');
+  ReactDOM.render(<HelloWorldWidget/>, container);
 };
 ```
 
@@ -95,7 +95,27 @@ This step ensures your new widget's "create" function is called on every page, g
 
 Your widget is now scaffolded!
 
-##  Next Up: Test the Widget
+##  View Your Widget
+
+Before you can see your widget locally, you need to register it in the `src/applications/registry.scaffold.json` file with a new entry for your widget:
+
+```json
+{
+  "appName": "Hello World Widget",
+  "rootUrl": "/hello-world",
+  "widgetType": "hello-world"
+}
+```
+
+Run `vets-website`:
+
+```sh
+yarn watch --env entry=static-pages
+```
+
+Open http://localhost:3001/hello-world in your browser. You should see the VA.gov header and footer with your widget in between declaring "Hello World!"
+
+##  Next Up: Writing Unit Tests
 
 You're ready to begin testing your widget.
 
