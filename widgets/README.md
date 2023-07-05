@@ -30,10 +30,10 @@ Widgets are conditionally mounted into a `<div>` on a static content page using 
 
 These are the steps to implement the pattern:
 
-1.  Each widget implements a `create` function that searches for a `<div>` based on a unique, `widget-type` HTML data attribute value, e.g.: `<div data-widget-type="my-widget"/>`.
+1.  Each widget implements a "create" function that searches for a `<div>` based on a unique, `widget-type` HTML data attribute value, e.g.: `<div data-widget-type="my-widget"/>`.
     *  If the `<div>` is not found the function does not mount the widget
     *  Otherwise, the function loads the widget's bundle and then mounts the widget
-1.  The `static-pages` application is responsible for calling every widget's `create` function
+1.  The `static-pages` application is responsible for calling every widget's "create" function
 1.  The `static-pages.entry.js` bundle is loaded on every static content page
 
 ##  Scaffolding a Widget
@@ -88,7 +88,7 @@ export const HelloWorld = () => {
 
 This is a minimally-viable React component that returns the string "Hello World". When you build you widget functionality, you'll build it by expanding upon this component to make it do something useful. But for now, this is enough as we consider meeting our tutorial acceptance criteria.
 
-###  Implement the `create` Function
+###  Implement the "create"`create` Function
 
 Create a new file called `createHelloWorldWidget.js`:
 
@@ -118,7 +118,7 @@ This file:
 1.  If such a DOM element is not found, the function returns
 1.  Otherwise, the function imports the `HelloWorld` widget bundle which contains the `HelloWorld` React component, and mounts the component to the DOM element.
 
-### Invoke the Widget `create` Function
+### Invoke the Widget "create"`create` Function
 
 Update the `src/applications/static-pages/static-pages-entry.js` file by importing your new `createHelloWorldWidget` function, and invoking it:
 
@@ -130,7 +130,7 @@ import { createHelloWorldWidget } from './hello-world/createHelloWorldWidget';
 createHelloWorldWidget();
 ```
 
-This step ensures your new widget `create` function is invoked on every page, giving your widget a chance to mount itself.
+This step ensures your new widget "create"`create` function is invoked on every page, giving your widget a chance to mount itself.
 
 Your widget is now scaffolded! ✅
 
