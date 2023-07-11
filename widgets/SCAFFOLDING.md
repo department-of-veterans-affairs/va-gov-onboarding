@@ -50,7 +50,7 @@ export const HelloWorldWidget = () => {
 };
 ```
 
-This is a basic React component that you'll eventually expand upon to make it do something useful for veterans.
+This is a basic React component that you'll eventually expand upon to make it do something useful for veterans. A widget can be made up of one or more React components.
 
 ##  Conditionally Mount the Widget
 
