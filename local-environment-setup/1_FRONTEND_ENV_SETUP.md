@@ -1,4 +1,4 @@
-# SETTING UP YOUR LOCAL FRONT END ENVIRONMENT
+# Setting up your local front-end environment
 A step-by-step guide to setting up the VA.gov frontend environment locally.
 ## Step 1: Set up Node
 1. Install `nvm`:
