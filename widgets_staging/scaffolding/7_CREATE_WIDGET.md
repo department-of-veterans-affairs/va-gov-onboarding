@@ -16,6 +16,6 @@ This step ensures your new widget's "create" function is called on every page, g
 > 
 > Your widget is now scaffolded!
 
-[Continue]()
+[Continue](./8_VIEW_WIDGET.md)
 
-[Back]()
+[Back](./6_MOUNT_WIDGET.md)
