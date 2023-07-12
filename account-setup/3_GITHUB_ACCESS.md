@@ -1,4 +1,4 @@
-# GITHUB
+# GitHub
 With the VA.gov platform, all code will be managed via GitHub repositories. In order to access all the GitHub repositories you will need to build VA products, you will need to be part of the appropriate VA GitHub organization.
 # Requesting access to the VA GitHub Organization
 Before you can request access to the VA GitHub organization, there are a few prerequisuites that you will need to meet:
