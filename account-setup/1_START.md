@@ -1,4 +1,4 @@
-# Before you begin
+# BEFORE YOU BEGIN
 In order to get through the platform orientation without issue, there are 2 prerequisites:
 1. You have access to your VA.gov email address
 2. You have a PIV card or are able to go through the PIV exception process
