@@ -1,4 +1,4 @@
-# RUNNING VA.GOV LOCALLY
+# Running VA.gov locally
 ## What the watch task does
 ```bash
 yarn watch
