@@ -14,4 +14,4 @@
 1.  The `vets-website` repository is cloned locally
 2.  Familiarity with JavaScript, JavaScript bundling, React, and the DOM
 
-[Continue]()
+[Continue](/2_WIDGET.md)
