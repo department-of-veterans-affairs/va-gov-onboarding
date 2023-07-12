@@ -54,4 +54,20 @@ git clone git@github.com:department-of-veterans-affairs/vets-api-mockdata.git
    yarn build
    ```
 
-   If you are only working in an [Isolated application(s)](https://depo-platform-documentation.scrollhelp.site/developer-docs/isolated-application-builds) (or do not need to build all applications), you can build one or more application(s) with the --entry option.
+   If you are only working in an [Isolated application(s)](https://depo-platform-documentation.scrollhelp.site/developer-docs/isolated-application-builds) (or do not need to build all applications), you can build **one or more application(s)** with the --entry option.
+   ```bash
+   yarn build --entry=static-pages,auth
+   ```
+3. Start the local development server for **all applications**. If you are applying CSS and/or JS changes to a static page/template that renders in `content-build`, we recommend leaving this command running so you will be able to see the changes in `content-build`.
+   ```bash
+   yarn watch
+   ```
+   Again, you can limit the watch to one or more application(s) with the --entry option.
+   ```bash
+   yarn watch --env entry=static-pages,auth
+   ```
+   The watch is complete when the CLI says `Compiled successfully`.
+
+   If you would like webpack to open a browser window for you, please run `yarn watch --open`. We use [Webpack DevServer](https://webpack.js.org/configuration/dev-server/) to watch and serve the files locally; all the same options and documentation should apply.
+4. Open http://localhost:3001 in a browser if you are working on an app; otherwise, continue on to the content-build section for viewing changes in the browser.
+> **Note:** You can learn more about building applications in the vets-website GitHub readme.
