@@ -10,6 +10,6 @@ export const HelloWorldWidget = () => {
 
 This is a basic React component that you'll eventually expand upon to make it do something useful for veterans. A widget can be made up of one or more React components, but this is the top-level component which will dictate how all the other components interact with each other.
 
-[Continue](./6_MOUNT_WIDGET.md)
+[Continue](./7_MOUNT_WIDGET.md)
 
-[Back](./4_COMPONENT_DIR.md)
+[Back](./5_COMPONENT_DIR.md)
