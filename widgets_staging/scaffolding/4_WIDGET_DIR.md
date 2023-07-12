@@ -7,6 +7,6 @@ cd src/applications/static-pages/
 mkdir hello-world
 ```
 
-[Continue](./4_COMPONENT_DIR.md)
+[Continue](./5_COMPONENT_DIR.md)
 
-[Back](./2_WIDGET_ID.md)
+[Back](./3_WIDGET_ID.md)
