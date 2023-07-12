@@ -1,4 +1,4 @@
-#  Add a New Widget Identifier
+##  Add a New Widget Identifier
 
 Add your widget identifier to the JavaScript object defined in  `src/applications/static-pages/widgetTypes.js`. This file contains a list of all widget identifiers.
 
