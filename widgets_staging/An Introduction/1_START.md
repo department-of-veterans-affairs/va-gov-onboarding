@@ -14,4 +14,12 @@
 1.  The `vets-website` repository is cloned locally
 2.  Familiarity with JavaScript, JavaScript bundling, React, and the DOM
 
+## What this section covers
+
+This section will cover the following topics:
+
+- What is a VA.gov React Widget?
+- The Static-Pages Application
+- The Conditional Widget Mounting Pattern
+
 [Continue](./2_WIDGET.md)
