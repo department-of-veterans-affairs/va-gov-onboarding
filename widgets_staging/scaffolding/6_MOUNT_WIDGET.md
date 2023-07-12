@@ -27,6 +27,6 @@ The above code:
 3.  If the `<div>` is not found, the function does nothing
 4.  Otherwise, the function imports the `HelloWorldWidget` bundle, which contains the `HelloWorldWidget` React component, and then mounts the component into the `<div>`.
 
-[Continue]()
+[Continue](./7_CREATE_WIDGET.md)
 
-[Back]()
+[Back](./5_CREATE_COMPONENT.md)
