@@ -1,4 +1,4 @@
-# SUPPORT
+# Support
 ## Support Slack Channel
 If you need assistance from someone on the Platform, see [Getting help from the Platform in Slack](https://depo-platform-documentation.scrollhelp.site/support/getting-help-from-the-platform-in-slack).
 > **Note:** Avoid direct messaging a Platform team member. Chatting openly in the #vfs-platform-support channel allows others to learn from the questions and answers discussed.
