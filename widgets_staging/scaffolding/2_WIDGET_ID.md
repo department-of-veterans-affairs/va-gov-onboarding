@@ -10,6 +10,6 @@ HELLO_WORLD: 'hello-world'
 
 This value will be used by the widget's "create" function to search for a `<div>` with a `data-widget-type` attribute with the value `hello-world`, e.g.: `<div data-widget-type="hello-world"/>`
 
-[Continue]()
+[Continue](./3_WIDGET_DIR.md)
 
-[Back]()
+[Back](./1_START.md)
