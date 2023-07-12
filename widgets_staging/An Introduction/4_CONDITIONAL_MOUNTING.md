@@ -14,6 +14,6 @@ These are the steps to implement the pattern:
 > 
 > You're ready to begin building your widget. You'll start by scaffolding it, by implementing the conditional widget mounting pattern.
 
-[Continue to Scaffolding]()
+[Continue to Scaffolding](./scaffolding/1_START.md)
 
 [Back](./3_STATIC_PAGES.md)
