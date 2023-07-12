@@ -26,7 +26,13 @@ yarn watch
 ## Running VA.gov locally for specific environments
 > **Note:** Typically, the reason for building the site locally like this is to build it in production mode and check that it is behaving as you'd expect. Most of the time, it's better to use the `watch` task to build the site locally since it is the most developer-friendly experience.
 
-[TABLE INSERT]
+| Environment | Build Command | Output Directory | Run Command |
+| --- | --- | --- | --- |
+| localhost | `yarn build` | `build/localhost` | `npx http-server -p 3001 build/localhost` |
+| http://dev.va.gov | `yarn build --buildtype=vagovdev` | `build/vagovdev` | `npx http-server -p 3001 build/vagovdev` |
+| http://staging.va.gov | `NODE_ENV=production yarn build --buildtype=vagovstaging` | `build/vagovstaging` | `npx http-server -p 3001 build/vagovstaging` |
+| http://www.va.gov | `NODE_ENV=production yarn build --buildtype=vagovprod` | `build/vagovprod` | `npx http-server -p 3001 build/vagovprod` |
+
 
 ### What the build commands do
 - **create** the **static pages** from the markdown content in the vagov-content repository and data queried from the Drupal API into their **output directory**.
