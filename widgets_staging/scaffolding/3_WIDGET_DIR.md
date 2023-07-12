@@ -5,7 +5,8 @@ Create a new directory under the `static-pages` application:
 ```sh
 cd src/applications/static-pages/
 mkdir hello-world
+```
 
-[Continue]()
+[Continue](./4_COMPONENT_DIR.md)
 
-[Back]()
+[Back](./2_WIDGET_ID.md)
