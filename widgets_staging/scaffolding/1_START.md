@@ -2,12 +2,17 @@
 
 > All work will take place within the `vets-website` repository.
 
-##  Create a Feature Branch
+## What this section covers
 
-Create a new branch off of `main` to develop your new widget:
+This section will cover the following topics:
 
-```sh
-git checkout -b feature/hello-world-widget
-```
+- Create a Feature Branch
+- Add a New Widget Identifier
+- Create a Directory for the Widget
+- Create a Directory for the React Component
+- Create a Basic React Component
+- Conditionally Mount the Widget
+- Call the Widget's "create" Function
+- View Your Widget
 
-[Continue](./2_WIDGET_ID.md)
+[Continue](./2_FEATURE_BRANCH.md)
