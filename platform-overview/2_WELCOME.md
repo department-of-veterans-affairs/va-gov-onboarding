@@ -1,3 +1,5 @@
+# WELCOME
+The Platform is the common infrastructure, technical and non-technical components, and processes that support static and interactive content consumed by Veterans via VA.gov. Major pieces of the Platform include a set of APIs that manage communication between a Veteran user and internal VA resources, an identity and authentication system, the VA.gov Design System, reusable frontend components, a Drupal-based content management system, and an extensive set of documentation and guides.
 ## What is VA.gov Platform?
 The Platform team is here to give you the tools, systems, and guidance you need to build online experiences on VA.gov that will improve Veterans' lives. As you develop your product, we’ll be your support team helping you through the VA.gov ecosystem, best practices, and processes, including the iterative cycle of ideation and strategy, user testing, launching code, and measuring results.
 ## What is VA.gov?
