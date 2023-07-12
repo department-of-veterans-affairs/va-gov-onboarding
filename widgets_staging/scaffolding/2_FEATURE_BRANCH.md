@@ -8,4 +8,4 @@ git checkout -b feature/hello-world-widget
 
 [Continue](./3_WIDGET_ID.md)
 
-[Back](./1_START)
+[Back](./1_START.md)
