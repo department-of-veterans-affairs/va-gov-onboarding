@@ -7,6 +7,6 @@ cd hello-world
 mkdir components
 ```
 
-[Continue](./5_CREATE_COMPONENT.md)
+[Continue](./6_CREATE_COMPONENT.md)
 
-[Back](./3_WIDGET_DIR.md)
+[Back](./4_WIDGET_DIR.md)
