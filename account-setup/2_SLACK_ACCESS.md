@@ -1,4 +1,4 @@
-# SLACK
+# Slack
 At the VA, Slack is our primary communication tool. Norms around communication may differ team to team so be sure to ask your product manager which communication tool best fits the VFS team that you are on.
 ## How to get Slack access
 1. Ask your Program Manager to request an invitation to the Digital Service @ VA Slack.
