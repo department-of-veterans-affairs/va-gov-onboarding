@@ -97,3 +97,14 @@ If you don't need to locally view static pages and are just working on applicati
    ```
 6. The watch is complete when the CLI says `Compiled successfully`. If you just need a server running without watching the metalsmith files you can `run npx http-server . -p 3002` inside `/build/localhost` to save some CPU.
 7. Open http://localhost:3002 in a browser.
+## Step 4: Backend and internal tools set up
+Setting up the backend and internal tools allows local test account login and static content rendering.
+- [Backend](https://github.com/department-of-veterans-affairs/vets-api) (`vets-api`) set up instructions
+
+  The local `vets-website` is configured to point to the `vets-api` backend at `http://localhost:3000`. Any website functionality that depends on the backend (i.e. login, save-in-progress, form submission, feature toggles) will require a locally running instance of `vets-api`.
+
+- [Local test account login instructions](https://github.com/department-of-veterans-affairs/va.gov-team-sensitive/blob/master/Administrative/accessing-staging.md)
+
+- [Internal tools setup instructions](https://depo-platform-documentation.scrollhelp.site/getting-started/Internal-tools-access-via-SOCKS-proxy.1821081710.html)
+
+  This proxy setup is required to access static content locally and to access to our reporting and monitoring tools. Running the yarn watch task with the SOCKS proxy active will automatically pull and cache the static content for vets-website.
