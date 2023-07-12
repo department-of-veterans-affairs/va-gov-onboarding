@@ -8,6 +8,6 @@ A VA.gov React Widget ("Widget") is a small React component that is mounted into
 ### VA.gov Application
 ![image](https://github.com/p-ssanders/va-gov-onboarding/assets/134732737/ac22b5a7-76a5-471e-ad26-1af91f724a61)
 
-[Continue](./1_START.md)
+[Continue](./3_STATIC_PAGES.md)
 
-[Back](./3_STATIC_PAGES.md)
+[Back](./1_START.md)
