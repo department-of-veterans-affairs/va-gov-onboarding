@@ -8,7 +8,7 @@ Choose the feature that you will be working on with your VFS team. If you are st
 
 [Application]()
 
-[Widget](../widgets-staging/introduction/1_START.md)
+[Widget](../widgets/introduction/1_START.md)
 
 [Content Page]()
 

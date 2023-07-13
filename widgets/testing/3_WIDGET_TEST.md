@@ -1,5 +1,5 @@
 ---
-permalink: /widgets-staging/testing/widget-test
+permalink: /widgets/testing/widget-test
 ---
 
 ## Write a Unit Test for the Widget's "create" Function

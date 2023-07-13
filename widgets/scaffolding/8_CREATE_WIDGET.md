@@ -1,13 +1,13 @@
 ---
-permalink: /widgets-staging/scaffolding/create-widget
+permalink: /widgets/scaffolding/create-widget
 ---
 
-##  Call the Widget's "create" Function
+## Call the Widget's "create" Function
 
 Update the `src/applications/static-pages/static-pages-entry.js` file by importing your new `createHelloWorldWidget` function, and calling it:
 
 ```javascript
-import { createHelloWorldWidget } from './hello-world/createHelloWorldWidget';
+import { createHelloWorldWidget } from "./hello-world/createHelloWorldWidget";
 
 // Other widget create calls...
 

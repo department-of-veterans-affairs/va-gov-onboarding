@@ -1,5 +1,5 @@
 ---
-permalink: /widgets-staging/testing/start
+permalink: /widgets/testing/start
 ---
 
 # Tutorial: Make a New VA.gov React Widget - Testing

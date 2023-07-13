@@ -1,5 +1,5 @@
 ---
-permalink: /widgets-staging/introduction/static-pages
+permalink: /widgets/introduction/static-pages
 ---
 
 ## The Static-Pages Application

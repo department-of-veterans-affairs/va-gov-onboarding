@@ -1,5 +1,5 @@
 ---
-permalink: /widgets-staging/testing/react-test
+permalink: /widgets/testing/react-test
 ---
 
 ## Write a Unit Test for the React Component

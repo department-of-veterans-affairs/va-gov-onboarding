@@ -1,8 +1,8 @@
 ---
-permalink: /widgets-staging/scaffolding/component-directory
+permalink: /widgets/scaffolding/component-directory
 ---
 
-##  Create a Directory for the React Component
+## Create a Directory for the React Component
 
 Create a new directory under the `hello-world` widget directory:
 

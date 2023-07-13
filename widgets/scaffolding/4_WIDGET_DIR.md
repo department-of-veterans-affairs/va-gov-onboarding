@@ -1,8 +1,8 @@
 ---
-permalink: /widgets-staging/scaffolding/widget-directory
+permalink: /widgets/scaffolding/widget-directory
 ---
 
-##  Create a Directory for the Widget
+## Create a Directory for the Widget
 
 Create a new directory under the `static-pages` application:
 
