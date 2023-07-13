@@ -1,3 +1,7 @@
+---
+permalink: /widgets/readme
+---
+
 #   Tutorial: Make a New VA.gov React Widget - Introduction
 
 *As a* frontend developer

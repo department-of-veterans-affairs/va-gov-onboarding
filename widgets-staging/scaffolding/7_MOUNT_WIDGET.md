@@ -1,3 +1,7 @@
+---
+permalink: /widgets-staging/scaffolding/mount-widget
+---
+
 ##  Conditionally Mount the Widget
 
 Create a new file called `createHelloWorldWidget.js` in the widget's root directory (`src/applications/static-pages/hello-world`) with the following content:

@@ -1,3 +1,7 @@
+---
+permalink: /widgets-staging/introduction/static-pages
+---
+
 ## The Static-Pages Application
 
 Within `vets-website` there is an application called `static-pages`. Widgets are defined in subdirectories of the `static-pages` application.

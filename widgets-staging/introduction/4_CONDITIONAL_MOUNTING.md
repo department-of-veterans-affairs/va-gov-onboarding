@@ -1,3 +1,7 @@
+---
+permalink: /widgets-staging/introduction/conditional-mounting
+---
+
 ##  The Conditional Widget Mounting Pattern
 
 Widgets are conditionally mounted into a `<div>` on a static content page using a standardized conditional mounting pattern.
@@ -11,7 +15,7 @@ These are the steps to implement the pattern:
 3.  The `static-pages.entry.js` bundle is loaded on every static content page
 
 >  **Next Up: Scaffold a Widget**
-> 
+>
 > You're ready to begin building your widget. You'll start by scaffolding it, by implementing the conditional widget mounting pattern.
 
 [Continue to Scaffolding](../scaffolding/1_START.md)

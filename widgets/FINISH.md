@@ -1,8 +1,13 @@
+---
+permalink: /widgets/finish
+---
+
 #   Tutorial: Make a New VA.gov React Widget - Finish
 
 ##  Mount to an Existing Page
 
 Running `vets-website` to interact with your widget is a great way to develop your widget in your development environment.
+
 However, for production, your widget should be mounted to an existing page.
 
 1.  Find the Liquid template that is responsible for rendering the existing page.

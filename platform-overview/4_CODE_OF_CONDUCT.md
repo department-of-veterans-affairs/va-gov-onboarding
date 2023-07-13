@@ -1,3 +1,7 @@
+---
+permalink: /platform-overview/code-of-conduct
+---
+
 # Veteran-facing Services Platform Code of Conduct
 
 ## Background

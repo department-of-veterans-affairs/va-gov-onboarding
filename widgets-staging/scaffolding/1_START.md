@@ -1,3 +1,7 @@
+---
+permalink: /widgets-staging/scaffolding/start
+---
+
 #   Tutorial: Make a New VA.gov React Widget - Scaffolding
 
 > All work will take place within the `vets-website` repository.

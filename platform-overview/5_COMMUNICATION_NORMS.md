@@ -1,3 +1,7 @@
+---
+permalink: /platform-overview/communication-norms
+---
+
 # Norms for Communication
 
 ## Communicating "breaking changes"

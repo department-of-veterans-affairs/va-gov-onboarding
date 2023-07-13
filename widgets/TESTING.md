@@ -1,3 +1,7 @@
+---
+permalink: /widgets/testing
+---
+
 # Tutorial: Make a New VA.gov React Widget - Testing
 
 ## Write a Unit Test for the React Component

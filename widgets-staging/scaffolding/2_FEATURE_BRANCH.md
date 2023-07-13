@@ -1,3 +1,7 @@
+---
+permalink: /widgets-staging/scaffolding/feature-branch
+---
+
 ##  Create a Feature Branch
 
 Create a new branch off of `main` to develop your new widget:

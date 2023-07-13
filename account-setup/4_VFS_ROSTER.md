@@ -1,5 +1,11 @@
+---
+permalink: /account-setup/vfs-roster
+---
+
 # VFS Roster
+
 The VA manages certain permissions through a master list of employees called the "VFS Roster". In order to be added into the "VFS Roster", you must submit this [GitHub issue](https://github.com/department-of-veterans-affairs/va.gov-team/issues/new?assignees=&labels=analytics-insights%2C+analytics-request%2C+governance-team%2C+platform-orientation&template=orientation-epic.md&title=Platform+Orientation+Template+%5BYour+name+here%5D) with your following information:
+
  - Name:
  - Preferred pronouns (e.g. she/her):
  - Role:
