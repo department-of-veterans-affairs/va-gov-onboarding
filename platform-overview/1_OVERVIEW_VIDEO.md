@@ -6,3 +6,7 @@ Orientation will point your teams and team members in the right direction to ens
 Please watch this brief [video](https://www.youtube.com/embed/0cc-VdfI4Q8) where former OCTO-DE Platform lead, Rachael Roueche, provides a brief overview of the VA.gov platform.
 
 > **Note:** Video was recorded in November, 2021. Architectural elements of VA.gov may have changed since the video was recorded.
+
+[Continue](./2_WELCOME.md)
+
+[Back](../account-setup/4_VFS_ROSTER.md)
