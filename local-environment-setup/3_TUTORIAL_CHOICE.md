@@ -29,12 +29,6 @@ Please select the tutorial which is most immediately useful to you.
 >
 > You can always come back to refamiliarize yourself with a tutorial or to select another tutorial to learn that process.
 
-[Continue to Applications Tutorial]()
-
-[Continue to Widgets Tutorial](../widgets-staging/introduction/1_START.md)
-
-[Continue to Content Pages Tutorial]()
-
-[Continue to Forms Tutorial]()
+[Continue](./4_CHOOSE.md)
 
 [Back](./2_RUN_VA.GOV_LOCALLY.md)
