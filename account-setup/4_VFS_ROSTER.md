@@ -10,6 +10,6 @@ The VA manages certain permissions through a master list of employees called the
 
 For this onboarding process, you will **NOT** need to complete the rest of the onboarding checklist within the roster. Please submit the information and a member of the VA.gov platform will place you into the "VFS Roster" within a week.
 
-[Continue](../platform-overview/1_START.md)
+[Continue](../platform-overview/1_OVERVIEW_VIDEO.md)
 
 [Back](./3_GITHUB_ACCESS.md)
