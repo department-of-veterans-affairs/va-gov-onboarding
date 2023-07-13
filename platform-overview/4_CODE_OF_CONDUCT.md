@@ -15,3 +15,7 @@ Examples of conduct that may be considered to violate this code of conduct inclu
 ## What to do if an incident arises
 
 If you notice or experience this code of conduct being violated, either towards yourself or someone else, immediately alert your supervisor. If an event occurs that you believe violates the law or which jeopardizes your safety, you should contact 911.
+
+[Continue](./5_COMMUNICATION_NORMS.md)
+
+[Back](./3_SUPPORT.md)
