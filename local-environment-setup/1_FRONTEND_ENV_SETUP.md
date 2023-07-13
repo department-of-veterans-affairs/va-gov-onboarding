@@ -108,3 +108,7 @@ Setting up the backend and internal tools allows local test account login and st
 - [Internal tools setup instructions](https://depo-platform-documentation.scrollhelp.site/getting-started/Internal-tools-access-via-SOCKS-proxy.1821081710.html)
 
   This proxy setup is required to access static content locally and to access to our reporting and monitoring tools. Running the yarn watch task with the SOCKS proxy active will automatically pull and cache the static content for vets-website.
+
+[Continue](./2_RUN_VA.GOV_LOCALLY.md)
+
+[Back](../platform-overview/5_COMMUNICATION_NORMS.md)
