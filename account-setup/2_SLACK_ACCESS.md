@@ -11,3 +11,7 @@ At the VA, Slack is our primary communication tool. Norms around communication m
 - Time zone
 - Pronouns
 - GitHub (i.e. the account handle / username you created when you set up your GitHub account)
+
+[Continue](./3_GITHUB_ACCESS.md)
+
+[Back](./1_START.md)
