@@ -58,7 +58,7 @@ yarn watch --env entry=static-pages,auth
 
 [Continue to First Application Commit]()
 
-[Continue to First Widget Commit](../widgets_staging/introduction/1_START.md)
+[Continue to First Widget Commit](../widgets-staging/introduction/1_START.md)
 
 [Continue to First Content Commit]()
 
