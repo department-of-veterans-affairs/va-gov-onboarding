@@ -74,6 +74,6 @@ Questions are bound to come up that fall somewhere between "How do I?" and "What
 * Email communications are not easily searchable or archivable.
 * Use this as a last resort for communication.
 
-[Continue](../local-environment-setup/1_START.md)
+[Continue](../local-environment-setup/1_FRONTEND_ENV_SETUP.md)
 
 [Back](./4_CODE_OF_CONDUCT.md)
