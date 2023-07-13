@@ -26,3 +26,7 @@ New hires that do not have a PIV card or GFE yet will need to request a PIV exem
 4. The rep will walk you through some steps and provide a login and temporary password.
 5. Wait 20 minutes. It takes almost exactly 20 minutes for the changes to propagate.
 6. Go to https://citrixaccess.va.gov/ use your username (it should be something like DVA\VACOMILLER) and password, and you should be able to access a virtual desktop.
+
+[Continue](./4_VFS_ROSTER.md)
+
+[Back](./2_SLACK_ACCESS.md)
