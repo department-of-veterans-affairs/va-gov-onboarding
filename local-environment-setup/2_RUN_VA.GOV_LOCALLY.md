@@ -56,12 +56,6 @@ yarn watch --env entry=static-pages,auth
 - [Metalsmith build script](https://github.com/department-of-veterans-affairs/content-build/tree/main/src/site/stages/build)
 - [Webpack development server config](https://github.com/department-of-veterans-affairs/vets-website/blob/main/config/webpack.dev.config.js)
 
-[Continue to First Application Commit]()
-
-[Continue to First Widget Commit](../widgets-staging/introduction/1_START.md)
-
-[Continue to First Content Commit]()
-
-[Continue to First Form Commit]()
+[Continue](./3_TUTORIAL_CHOICE.md)
 
 [Back](./1_FRONTEND_ENV_SETUP.md)
