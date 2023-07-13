@@ -51,3 +51,7 @@ Platform code is divided into two categories: common code and application code.
 2. Application code provides specific functionality for a VFS application.
 
 Platform engineers are responsible for maintenance, detecting bugs, and performance in common code and libraries. VFS application teams are responsible for the quality of their FE and BE application code.
+
+[Continue](./4_CODE_OF_CONDUCT.md)
+
+[Back](./2_WELCOME.md)
