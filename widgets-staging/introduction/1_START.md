@@ -24,4 +24,4 @@ This section will cover the following topics:
 
 [Continue](./2_WIDGET.md)
 
-[Back](../../local-environment-setup/3_TUTORIAL_CHOICE.md)
+[Return to Local Environment Setup](../../local-environment-setup/3_TUTORIAL_CHOICE.md)
