@@ -1,1 +1,8 @@
+title: VA.gov Onboarding
+description: Welcome to VA.gov Onboarding!
+
 theme: jekyll-theme-architect
+
+plugins:
+  - jekyll-sitemap
+
