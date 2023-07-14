@@ -6,12 +6,12 @@ permalink: /local-environment-setup/choose
 
 Choose the feature that you will be working on with your VFS team. If you are still unsure after asking your product manager, please default to "Application".
 
-[Application]()
+~~[A New Application]()~~
 
-[Widget](../widgets/introduction/1_START.md)
+[A New Widget](../widgets/introduction/1_START.md)
 
-[Content Page]()
+~~[A New Content Page]()~~
 
-[Forms]()
+~~[A New Form]()~~
 
 [Back](./3_TUTORIAL_CHOICE.md)
