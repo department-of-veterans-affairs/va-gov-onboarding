@@ -1,0 +1,12 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    a {
+        margin-left: 1rem;
+    }
+}

@@ -1,5 +1,7 @@
 ---
 permalink: /widgets/scaffolding/mount-widget
+previous: /widgets/scaffolding/create-component
+next: /widgets/scaffolding/create-widget
 ---
 
 # Conditionally Mount the Widget
@@ -32,7 +34,3 @@ The above code:
 1.  This function searches for a `<div>` with the `data-widget-type` attribute whose value is the unique string you added to the `widgetTypes` object (`HELLO_WORLD`)
 1.  If the `<div>` is not found, the function does nothing
 1.  Otherwise, the function imports the `HelloWorldWidget` bundle, which contains the `HelloWorldWidget` React component, and then mounts the component into the `<div>`.
-
-[Continue](./8-create-widget.md)
-
-[Back](./6-create-component.md)

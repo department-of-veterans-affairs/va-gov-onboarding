@@ -1,5 +1,7 @@
 ---
 permalink: /widgets/scaffolding/view-widget
+previous: /widgets/scaffolding/create-widget
+next: /widgets/testing/start
 ---
 
 # View Your Widget
@@ -25,7 +27,3 @@ Open http://localhost:3001/hello-world in your browser. You should see the VA.go
 ## Next Up: Writing Unit Tests
 
 You're ready to begin testing your widget.
-
-[Continue to Testing](../testing/1-start.md)
-
-[Back](./8-create-widget.md)

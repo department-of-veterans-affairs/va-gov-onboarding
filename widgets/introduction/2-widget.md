@@ -1,5 +1,7 @@
 ---
 permalink: /widgets/introduction/widget
+previous: /widgets/introduction/start
+next: /widgets/introduction/static-pages
 ---
 
 # What is a VA.gov React Widget?
@@ -11,7 +13,3 @@ A VA.gov "Application" fills an entire page between the header and footer of VA.
 |                  VA.gov Widget                  | VA.gov Application |
 | :---------------------------------------------: | :----------------: | --------------------------------------------------------- | ---------------- |
 | ![VA.gov Widget]({{ "/assets/images/widget.png" |  relative_url }})  | ![VA.gov Application]({{ "/assets/images/application.png" | relative_url }}) |
-
-[Continue](./3-static-pages.md)
-
-[Back](./1-start.md)

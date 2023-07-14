@@ -1,5 +1,7 @@
 ---
 permalink: /widgets/scaffolding/create-widget
+previous: /widgets/scaffolding/mount-widget
+next: /widgets/scaffolding/view-widget
 ---
 
 # Call the Widget's "create" Function
@@ -17,7 +19,3 @@ createHelloWorldWidget();
 This step ensures your new widget's "create" function is called on every page, giving your widget a chance to mount itself.
 
 Your widget is now scaffolded!
-
-[Continue](./9-view-widget.md)
-
-[Back](./7-mount-widget.md)

@@ -1,5 +1,7 @@
 ---
 permalink: /widgets/scaffolding/widget-directory
+previous: /widgets/scaffolding/widget-id
+next: /widgets/scaffolding/component-directory
 ---
 
 # Create a Directory for the Widget
@@ -13,7 +15,3 @@ cd src/applications/static-pages/
 ```
 mkdir hello-world
 ```
-
-[Continue](./5-component-dir.md)
-
-[Back](./3-widget-id.md)

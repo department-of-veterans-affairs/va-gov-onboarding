@@ -35,15 +35,11 @@ npm install -g yarn
 ## Step 4: Install Dependencies and Run `vets-website`:
 
 ```bash
-cd vets-website
-```
-
-```bash
 yarn install
 ```
 
 ```bash
-yarn watch
+yarn watch --env entry=static-pages
 ```
 
 To view the app open [http://localhost:3001](http://localhost:3001)

@@ -1,5 +1,7 @@
 ---
 permalink: /widgets/testing/start
+previous: /widgets/scaffolding/view-widget
+next: /widgets/testing/react-test
 ---
 
 # Tutorial: Make a New VA.gov React Widget - Testing
@@ -11,7 +13,3 @@ This section will cover the following topics:
 
 - Testing the React component
 - Testing the widget's "create" function
-
-[Continue](./2-react-test.md)
-
-[Back](../scaffolding/9-view-widget.md)

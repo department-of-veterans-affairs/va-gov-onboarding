@@ -1,5 +1,7 @@
 ---
 permalink: /widgets/scaffolding/create-component
+previous: /widgets/scaffolding/component-directory
+next: /widgets/scaffolding/mount-widget
 ---
 
 # Create a Basic React Component
@@ -13,7 +15,3 @@ export const HelloWorldWidget = () => {
 ```
 
 This is a basic React component that you'll eventually expand upon to make it do something useful for veterans. A widget can be made up of one or more React components, but this is the top-level component which will dictate how all the other components interact with each other.
-
-[Continue](./7-mount-widget.md)
-
-[Back](./5-component-dir.md)

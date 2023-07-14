@@ -1,5 +1,7 @@
 ---
 permalink: /widgets/introduction/start
+previous: /widgets
+next: /widgets/introduction/widget
 ---
 
 # Tutorial: Make a New VA.gov React Widget - Introduction
@@ -25,7 +27,3 @@ This section will cover the following topics:
 - What is a VA.gov React Widget?
 - The Static-Pages Application
 - The Conditional Widget Mounting Pattern
-
-[Continue](./2-widget.md)
-
-[Back](../)

@@ -1,5 +1,7 @@
 ---
 permalink: /widgets/scaffolding/start
+previous: /widgets/introduction/conditional-mounting
+next: /widgets/scaffolding/feature-branch
 ---
 
 # Tutorial: Make a New VA.gov React Widget - Scaffolding
@@ -18,7 +20,3 @@ This section will cover the following topics:
 - Conditionally Mount the Widget
 - Call the Widget's "create" Function
 - View Your Widget
-
-[Continue](./2-feature-branch.md)
-
-[Back](../introduction/4-conditional-mounting.md)

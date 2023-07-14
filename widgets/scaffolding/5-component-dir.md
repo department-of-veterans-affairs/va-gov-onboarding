@@ -1,5 +1,7 @@
 ---
 permalink: /widgets/scaffolding/component-directory
+previous: /widgets/scaffolding/widget-directory
+next: /widgets/scaffolding/create-component
 ---
 
 # Create a Directory for the React Component
@@ -13,7 +15,3 @@ cd hello-world
 ```
 mkdir components
 ```
-
-[Continue](./6-create-component.md)
-
-[Back](./4-widget-dir.md)

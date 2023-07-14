@@ -1,5 +1,7 @@
 ---
 permalink: /widgets/introduction/conditional-mounting
+previous: /widgets/introduction/static-pages
+next: /widgets/introduction/scaffolding
 ---
 
 # The Conditional Widget Mounting Pattern
@@ -17,7 +19,3 @@ These are the steps to implement the pattern:
 ## Next Up: Scaffolding
 
 You're ready to begin building your widget. You'll start by scaffolding it, by implementing the conditional widget mounting pattern.
-
-[Continue](../scaffolding/1-start.md)
-
-[Back](./3-static-pages.md)

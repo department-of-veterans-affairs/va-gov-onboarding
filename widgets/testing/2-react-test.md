@@ -1,5 +1,7 @@
 ---
 permalink: /widgets/testing/react-test
+previous: /widgets/testing/start
+next: /widgets/testing/widget-test
 ---
 
 # Write a Unit Test for the React Component
@@ -33,7 +35,3 @@ yarn test:unit src/applications/static-pages/hello-world/tests/HellowWorldWidget
 ```
 
 It should pass. Add more tests as you develop your widget.
-
-[Continue](./3-widget-test.md)
-
-[Back](./1-start.md)
