@@ -36,9 +36,6 @@ Clone VA.gov git repo as **sibling directories**:
 ```bash
 git clone git@github.com:department-of-veterans-affairs/vets-website.git
 ```
-### Front end repos
-
-- `vets-website`: Core front end platform and application code
 
 ## Step 3: Start up the front end
 
