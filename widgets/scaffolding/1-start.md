@@ -19,6 +19,6 @@ This section will cover the following topics:
 - Call the Widget's "create" Function
 - View Your Widget
 
-[Continue](./2_FEATURE_BRANCH.md)
+[Continue](./2-feature-branch.md)
 
-[Back](../introduction/4_CONDITIONAL_MOUNTING.md)
+[Back](../introduction/4-conditional-mounting.md)

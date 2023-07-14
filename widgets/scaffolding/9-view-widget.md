@@ -26,6 +26,6 @@ Open http://localhost:3001/hello-world in your browser. You should see the VA.go
 >
 > You're ready to begin testing your widget.
 
-[Continue to Testing](../testing/1_START.md)
+[Continue to Testing](../testing/1-start.md)
 
-[Back](./8_CREATE_WIDGET.md)
+[Back](./8-create-widget.md)

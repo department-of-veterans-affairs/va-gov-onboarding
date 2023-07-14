@@ -10,6 +10,6 @@ Create a new branch off of `main` to develop your new widget:
 git checkout -b feature/hello-world-widget
 ```
 
-[Continue](./3_WIDGET_ID.md)
+[Continue](./3-widget-id.md)
 
-[Back](./1_START.md)
+[Back](./1-start.md)

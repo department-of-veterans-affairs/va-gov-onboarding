@@ -10,11 +10,11 @@ Breaking changes are changes to design, content, or code that have the potential
 
 For example:
 
-* A new design pattern is added to the design system
-* The Sketch file has been updated
-* A change to how the feature toggle works
-* A change to how the website build process works
-* A significant change to the content style guide
+- A new design pattern is added to the design system
+- The Sketch file has been updated
+- A change to how the feature toggle works
+- A change to how the website build process works
+- A significant change to the content style guide
 
 **All instances of breaking changes should be posted to [#vfs-all-teams](https://dsva.slack.com/channels/vfs-all-teams).**
 
@@ -28,18 +28,19 @@ The post needs to provide enough information that a designer, developer, or cont
 
 ### DEPO authorizes access for VFS teams
 
-* To ensure we limit VA access to the right people, a DEPO person will add VFS team members.
-  * If a new need arises (e.g., access to a new Github repo is needed), direct the request to the DEPO contact, who will determine access and permissions.
+- To ensure we limit VA access to the right people, a DEPO person will add VFS team members.
+  - If a new need arises (e.g., access to a new Github repo is needed), direct the request to the DEPO contact, who will determine access and permissions.
 
 ### DEPO and the platform team provide support
-* DEPO and the platform team will monitor the [#vfs-platform-support](https://dsva.slack.com/channels/vfs-platform-support) Slack channel for product-focused questions/inquiries from VFS teams.
+
+- DEPO and the platform team will monitor the [#vfs-platform-support](https://dsva.slack.com/channels/vfs-platform-support) Slack channel for product-focused questions/inquiries from VFS teams.
 
 ### The platform team cannot direct VFS teams
 
 The platform team cannot direct the roadmaps of VFS teams or tell them what project they should work on next. For example:
 
-* What should I be working on?
-* What task should I do next?
+- What should I be working on?
+- What task should I do next?
 
 If these questions come up, the platform team will ask the VFS team to contact their DEPO product contact.
 
@@ -52,32 +53,36 @@ Questions are bound to come up that fall somewhere between "How do I?" and "What
 ## VFS team responsibilities
 
 ### Look for documentation before posting a question in Slack (or contacting DEPO).
-* See your team's Github "Product" folder or orientation guides.
-* If you don't find an answer, post in [#vfs-platform-support](https://dsva.slack.com/channels/vfs-platform-support).
+
+- See your team's Github "Product" folder or orientation guides.
+- If you don't find an answer, post in [#vfs-platform-support](https://dsva.slack.com/channels/vfs-platform-support).
 
 ### Use Slack channels for different purposes.
 
-* **For product questions** use your team's "product" Slack channel.
-  * Example question: "Where can I find previous research?"
-* **For process questions**, use the [#vfs-platform-support](https://dsva.slack.com/channels/vfs-platform-support) Slack channel.
-  * Example questions: "I can't get the proxy to work" or "How do I integrate this into that?" or "How do I use Zenhub to do X?"
-* **For practice area questions** use your practice area Slack channel (e.g., [#design](https://dsva.slack.com/channels/design))
+- **For product questions** use your team's "product" Slack channel.
+  - Example question: "Where can I find previous research?"
+- **For process questions**, use the [#vfs-platform-support](https://dsva.slack.com/channels/vfs-platform-support) Slack channel.
+  - Example questions: "I can't get the proxy to work" or "How do I integrate this into that?" or "How do I use Zenhub to do X?"
+- **For practice area questions** use your practice area Slack channel (e.g., [#design](https://dsva.slack.com/channels/design))
 
 ### Use best communication method.
 
 #### Slack - best communication method
-* Slack channels allow us to do our work in the open so that others can learn from the questions asked and the answers provided. Please do the same.
-* We discourage private Slack conversations (DMs) for the same reason.
-* **VFS teams should use public Slack channels as their first method of communication.**
+
+- Slack channels allow us to do our work in the open so that others can learn from the questions asked and the answers provided. Please do the same.
+- We discourage private Slack conversations (DMs) for the same reason.
+- **VFS teams should use public Slack channels as their first method of communication.**
 
 #### Meetings - slowest communication method
-* If your team has a question about something, ask it in a Slack channel.
-* Don't wait to organize a meeting to ask a question; this will slow your team down.
+
+- If your team has a question about something, ask it in a Slack channel.
+- Don't wait to organize a meeting to ask a question; this will slow your team down.
 
 #### Email - least effective communication method
-* Email communications are not easily searchable or archivable.
-* Use this as a last resort for communication.
 
-[Continue](../local-environment-setup/1_FRONTEND_ENV_SETUP.md)
+- Email communications are not easily searchable or archivable.
+- Use this as a last resort for communication.
 
-[Back](./4_CODE_OF_CONDUCT.md)
+[Continue](../local-environment-setup/1-frontend-env-setup.md)
+
+[Back](./4-code-of-conduct.md)

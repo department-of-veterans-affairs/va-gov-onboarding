@@ -11,17 +11,19 @@ yarn watch
 ```
 
 1. Build
-  - `vets-website`
-    - **Webpack** manages this build pipeline. At a high level, this process:
-      - Starts **Webpack**'s development server which
-        - **Builds** the **JavaScript** and **CSS** bundles
-        - **Serves** the **JavaScript** and **CSS** bundles built by Webpack as well as any scaffolded application pages http://localhost:3001
-  - content-build
-    - **Metalsmith** manages this build pipeline. At a high level, this process:
-      - Retrieves and **builds** all of the **static pages** sourced from `vagov-content` or Drupal
-      - **Serves** the **static content** built by Metalsmith at http://localhost:3002
+
+- `vets-website`
+  - **Webpack** manages this build pipeline. At a high level, this process:
+    - Starts **Webpack**'s development server which
+      - **Builds** the **JavaScript** and **CSS** bundles
+      - **Serves** the **JavaScript** and **CSS** bundles built by Webpack as well as any scaffolded application pages http://localhost:3001
+- content-build
+  - **Metalsmith** manages this build pipeline. At a high level, this process:
+    - Retrieves and **builds** all of the **static pages** sourced from `vagov-content` or Drupal
+    - **Serves** the **static content** built by Metalsmith at http://localhost:3002
 
 2. Output
+
    - **Metalsmith** in the `content-build` repository outputs **static pages** to `build/localhost`
    - **Webpack** in the `vets-website` repository development server has **no output**. **JavaScript** and **CSS** are kept on disk.
 
@@ -35,13 +37,12 @@ yarn watch
 
 > **Note:** Typically, the reason for building the site locally like this is to build it in production mode and check that it is behaving as you'd expect. Most of the time, it's better to use the `watch` task to build the site locally since it is the most developer-friendly experience.
 
-| Environment | Build Command | Output Directory | Run Command |
-| --- | --- | --- | --- |
-| localhost | `yarn build` | `build/localhost` | `npx http-server -p 3001 build/localhost` |
-| http://dev.va.gov | `yarn build --buildtype=vagovdev` | `build/vagovdev` | `npx http-server -p 3001 build/vagovdev` |
+| Environment           | Build Command                                             | Output Directory     | Run Command                                  |
+| --------------------- | --------------------------------------------------------- | -------------------- | -------------------------------------------- |
+| localhost             | `yarn build`                                              | `build/localhost`    | `npx http-server -p 3001 build/localhost`    |
+| http://dev.va.gov     | `yarn build --buildtype=vagovdev`                         | `build/vagovdev`     | `npx http-server -p 3001 build/vagovdev`     |
 | http://staging.va.gov | `NODE_ENV=production yarn build --buildtype=vagovstaging` | `build/vagovstaging` | `npx http-server -p 3001 build/vagovstaging` |
-| http://www.va.gov | `NODE_ENV=production yarn build --buildtype=vagovprod` | `build/vagovprod` | `npx http-server -p 3001 build/vagovprod` |
-
+| http://www.va.gov     | `NODE_ENV=production yarn build --buildtype=vagovprod`    | `build/vagovprod`    | `npx http-server -p 3001 build/vagovprod`    |
 
 ### What the build commands do
 
@@ -78,6 +79,6 @@ yarn watch --env entry=static-pages,auth
 - [Metalsmith build script](https://github.com/department-of-veterans-affairs/content-build/tree/main/src/site/stages/build)
 - [Webpack development server config](https://github.com/department-of-veterans-affairs/vets-website/blob/main/config/webpack.dev.config.js)
 
-[Continue](./3_TUTORIAL_CHOICE.md)
+[Continue](./3-tutorial-choice.md)
 
-[Back](./1_FRONTEND_ENV_SETUP.md)
+[Back](./1-frontend-env-setup.md)

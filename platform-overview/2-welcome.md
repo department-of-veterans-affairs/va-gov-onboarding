@@ -22,6 +22,6 @@ VFS team is defined as all veteran-facing teams developing products using the VA
 
 We work in the open and strive to keep as much of our code and other work product in publicly accessible open source repositories. You will have access to our open-source (i.e. public) GitHub repository for tracking work and documentation. [Here](https://github.com/department-of-veterans-affairs/va.gov-team/blob/master/platform/working-with-vsp/policies-work-norms/sensitive-guidance.md) are some ground rules to make sure you know what not to do when working in a public repo.
 
-[Continue](./3_SUPPORT.md)
+[Continue](./3-support.md)
 
-[Back](./1_OVERVIEW_VIDEO.md)
+[Back](./1-overview-video.md)

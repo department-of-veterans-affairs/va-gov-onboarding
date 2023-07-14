@@ -51,4 +51,4 @@ You're ready to mount your widget into a static content page.
 
 [Continue to Finish]()
 
-[Back](./2_REACT_TEST.md)
+[Back](./2-react-test.md)

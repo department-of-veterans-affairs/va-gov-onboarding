@@ -1,3 +1,3 @@
 # Let's get started.
 
-[Next](account-setup/2_SLACK_ACCESS.md)
+[Next](account-setup/1-slack-access.md)

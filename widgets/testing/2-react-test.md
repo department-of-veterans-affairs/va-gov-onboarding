@@ -34,6 +34,6 @@ yarn test:unit src/applications/static-pages/hello-world/tests/HellowWorldWidget
 
 It should pass. Add more tests as you develop your widget.
 
-[Continue](./3_WIDGET_TEST.md)
+[Continue](./3-widget-test.md)
 
-[Back](./1_START.md)
+[Back](./1-start.md)

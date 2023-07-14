@@ -13,6 +13,6 @@ This section will cover the following topics:
 - Write a Unit Test for the React Component
 - Write a Unit Test for the Widget's "create" Function
 
-[Continue](./2_REACT_TEST.md)
+[Continue](./2-react-test.md)
 
-[Back](../scaffolding/9_VIEW_WIDGET.md)
+[Back](../scaffolding/9-view-widget.md)

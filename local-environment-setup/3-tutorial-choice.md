@@ -39,6 +39,6 @@ Please select the tutorial which is most immediately useful to you.
 >
 > You can always come back to refamiliarize yourself with a tutorial or to select another tutorial to learn that process.
 
-[Continue](./4_CHOOSE.md)
+[Continue](./4-choose.md)
 
-[Back](./2_RUN_VA.GOV_LOCALLY.md)
+[Back](./2-run-va-gov-locally.md)
