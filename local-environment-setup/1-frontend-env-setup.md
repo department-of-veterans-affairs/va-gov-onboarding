@@ -50,4 +50,4 @@ To view the app open [http://localhost:3001](http://localhost:3001)
 
 [Continue](./2-run-va-gov-locally.md)
 
-[Back](/platform-overview/5-communication-norms.md)
+[Back](../platform-overview/5-communication-norms.md)

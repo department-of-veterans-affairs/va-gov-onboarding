@@ -11,4 +11,4 @@ In order to get through the platform orientation without issue, there are 2 prer
 
 If you are unsure if you meet these 2 prerequisites, please talk to your product manager or COR to ensure that you are properly setup.
 
-[Continue](./1-slack-access.md)
+[Continue](./2-slack-access.md)

@@ -45,10 +45,8 @@ yarn test:unit src/applications/static-pages/hello-world/tests/createHelloWorldW
 
 It should pass. These tests should be enough to cover your "create" function behavior.
 
-## Next Up: Final Steps
+## You Made It!
 
-You're ready to mount your widget into a static content page.
-
-[Continue to Finish]()
+Thanks for following along with this tutorial. You now have a basic understanding of how to create a VA.gov React widget.
 
 [Back](./2-react-test.md)
