@@ -4,7 +4,7 @@ permalink: /local-environment-setup/choose
 
 ## Choose a feature
 
-Choose the feature that you will be working on with your VFS team. If you are still unsure after asking your product manager, please default to "Application".
+Choose the feature that you will be working on with your VFS team. If you are still unsure after asking your product manager, please default to "A New Application".
 
 ~~[A New Application]()~~
 
