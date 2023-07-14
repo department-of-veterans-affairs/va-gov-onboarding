@@ -2,7 +2,7 @@
 permalink: /widgets/testing/react-test
 ---
 
-## Write a Unit Test for the React Component
+# Write a Unit Test for the React Component
 
 Make a directory for unit tests:
 

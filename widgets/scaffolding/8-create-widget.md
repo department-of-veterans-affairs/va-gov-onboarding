@@ -2,7 +2,7 @@
 permalink: /widgets/scaffolding/create-widget
 ---
 
-## Call the Widget's "create" Function
+# Call the Widget's "create" Function
 
 Update the `src/applications/static-pages/static-pages-entry.js` file by importing your new `createHelloWorldWidget` function, and calling it:
 
@@ -16,9 +16,7 @@ createHelloWorldWidget();
 
 This step ensures your new widget's "create" function is called on every page, giving your widget a chance to mount itself.
 
-> **Scaffold Complete!**
->
-> Your widget is now scaffolded!
+Your widget is now scaffolded!
 
 [Continue](./9-view-widget.md)
 

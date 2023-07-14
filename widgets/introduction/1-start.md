@@ -28,4 +28,4 @@ This section will cover the following topics:
 
 [Continue](./2-widget.md)
 
-[Return to Local Environment Setup](../../local-environment-setup/3-tutorial-choice.md)
+[Back](../)

@@ -2,7 +2,7 @@
 permalink: /widgets/scaffolding/create-component
 ---
 
-## Create a Basic React Component
+# Create a Basic React Component
 
 Create a file in the `hello-world/components` directory called `HelloWorldWidget.jsx` with the following contents:
 

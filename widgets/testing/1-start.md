@@ -4,14 +4,13 @@ permalink: /widgets/testing/start
 
 # Tutorial: Make a New VA.gov React Widget - Testing
 
-> Let's write a test to verify the existing widget's behavior!
+Let's write a test to verify the existing widget's behavior!
 
-## What this section covers
-
+## What this Section Covers
 This section will cover the following topics:
 
-- Write a Unit Test for the React Component
-- Write a Unit Test for the Widget's "create" Function
+- Testing the React component
+- Testing the widget's "create" function
 
 [Continue](./2-react-test.md)
 

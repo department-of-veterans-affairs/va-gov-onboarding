@@ -4,9 +4,9 @@ permalink: /widgets/scaffolding/start
 
 # Tutorial: Make a New VA.gov React Widget - Scaffolding
 
-> All work will take place within the `vets-website` repository.
+All work will take place within the `vets-website` repository.
 
-## What this section covers
+## What this Section Covers
 
 This section will cover the following topics:
 

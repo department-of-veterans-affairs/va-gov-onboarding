@@ -2,7 +2,7 @@
 permalink: /widgets/testing/widget-test
 ---
 
-## Write a Unit Test for the Widget's "create" Function
+# Write a Unit Test for the Widget's "create" Function
 
 Create a test file `hello-world/tests/createHelloWorldWidget.unit.spec.js` with the following contents:
 

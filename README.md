@@ -1,3 +1,3 @@
-# Let's get started.
+# Let's Make a New VA.gov React Widget!.
 
-[Next](./account-setup/1-start.md)
+[Next](./widgets)
