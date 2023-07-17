@@ -6,7 +6,7 @@ next: /widgets/scaffolding/component-directory
 
 # Create a Directory for the Widget
 
-Let's create the directory where our widget will live.
+Create the directory where your widget will live.
 
 ```sh
 mkdir src/applications/static-pages/hello-world
