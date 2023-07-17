@@ -38,10 +38,10 @@
           {{ content }}
           <div class="navigation-buttons">
             {% if page.previous %}
-            <a href="{{ page.previous }}">Back</a>
+            <a href="{{ page.previous | relative_url }}">Back</a>
             {% endif %}
             {% if page.next %}
-            <a href="{{ page.next }}">Continue</a>
+            <a href="{{ page.next | relative_url }}">Continue</a>
             {% endif %}
           </div>
         </section>
