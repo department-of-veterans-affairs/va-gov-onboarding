@@ -6,7 +6,7 @@ next: /widgets/scaffolding/create-component
 
 # Create a Directory for the React Component
 
-Let's create the directory where the React components of our widget will live.
+Create the directory where the React components of your widget will live.
 
 ```sh
 mkdir src/applications/static-pages/hello-world/components
