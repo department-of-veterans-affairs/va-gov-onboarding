@@ -1,4 +1,5 @@
 ---
+permalink: /
 next: /widgets
 ---
 
