@@ -6,9 +6,15 @@ next: /widgets/scaffolding/create-widget
 
 # Conditionally Mount the Widget
 
-Create a new file called `createHelloWorldWidget.js` in the widget's root directory (`src/applications/static-pages/hello-world`) with the following content:
+Create a file for the widget's "create" function.
 
-```javascript
+```sh
+touch src/applications/static-pages/hello-world/createHelloWorldWidget.js
+```
+
+Add the following contents to the file:
+
+```jsx
 import React from "react";
 import ReactDOM from "react-dom";
 import widgetTypes from "../widgetTypes";

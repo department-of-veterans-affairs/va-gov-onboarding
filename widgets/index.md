@@ -1,5 +1,7 @@
 ---
 permalink: /widgets
+previous: /
+next: /widgets/introduction/start
 ---
 
 # Tutorial: Make a New VA.gov React Widget - Setup
@@ -11,7 +13,7 @@ permalink: /widgets
 ## Step 2: Clone the VA.gov `vets-website` repository
 
 ```bash
-git clone git@github.com:department-of-veterans-affairs/vets-website.git
+git clone https://github.com/department-of-veterans-affairs/vets-website.git
 ```
 
 ## Step 3: Install Node and Yarn
@@ -43,7 +45,3 @@ yarn watch --env entry=static-pages
 ```
 
 To view the app open [http://localhost:3001](http://localhost:3001)
-
-[Continue](./introduction/1-start.md)
-
-[Back](/)

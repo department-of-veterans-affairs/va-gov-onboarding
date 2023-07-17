@@ -1,3 +1,5 @@
-# Let's Make a New VA.gov React Widget!.
+---
+next: /widgets
+---
 
-[Next](./widgets)
+# Let's Make a New VA.gov React Widget!

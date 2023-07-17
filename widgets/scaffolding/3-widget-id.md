@@ -1,7 +1,7 @@
 ---
 permalink: /widgets/scaffolding/widget-id
 previous: /widgets/scaffolding/feature-branch
-next: /widgets/scaffolding/widget-dir
+next: /widgets/scaffolding/widget-directory
 ---
 
 # Add a New Widget Identifier
@@ -11,7 +11,7 @@ Add your widget identifier to the JavaScript object defined in `src/applications
 Follow the convention by adding your new entry in alphabetical order:
 
 ```javascript
-HELLO_WORLD: "hello-world"
+HELLO_WORLD: "hello-world",
 ```
 
-This value will be used by the widget's "create" function to search for a `<div>` with a `data-widget-type` attribute with the value `hello-world`, e.g.: `<div data-widget-type="hello-world"/>`
+This value will be used by the widget's "create" function to search for a `<div>` with a `data-widget-type` attribute value of `hello-world`, e.g.: `<div data-widget-type="hello-world"/>`

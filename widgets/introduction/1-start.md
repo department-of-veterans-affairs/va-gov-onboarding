@@ -17,7 +17,7 @@ So that I can understand how to build one of the types of features on VA.gov
 
 ## Prerequisites
 
-1.  The `vets-website` repository is cloned locally
+1.  Your local development environment is set up to run `vets-website` locally
 1.  Familiarity with JavaScript, JavaScript bundling, React, and the DOM
 
 ## What this section covers

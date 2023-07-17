@@ -36,10 +36,13 @@
       <div class="inner clearfix">
         <section id="main-content">
           {{ content }}
-
-          <div class="buttons">
+          <div class="navigation-buttons">
+            {% if page.previous %}
             <a href="{{ page.previous }}">Back</a>
+            {% endif %}
+            {% if page.next %}
             <a href="{{ page.next }}">Continue</a>
+            {% endif %}
           </div>
         </section>
       </div>

@@ -6,7 +6,13 @@ next: /widgets/scaffolding/mount-widget
 
 # Create a Basic React Component
 
-Create a file in the `hello-world/components` directory called `HelloWorldWidget.jsx` with the following contents:
+Create a file for the React component.
+
+```sh
+touch src/applications/static-pages/hello-world/components/HelloWorldWidget.jsx
+```
+
+Add the following contents to the file:
 
 ```javascript
 export const HelloWorldWidget = () => {
@@ -14,4 +20,4 @@ export const HelloWorldWidget = () => {
 };
 ```
 
-This is a basic React component that you'll eventually expand upon to make it do something useful for veterans. A widget can be made up of one or more React components, but this is the top-level component which will dictate how all the other components interact with each other.
+This is a basic React component that you'll eventually expand upon to make it do something useful for veterans.

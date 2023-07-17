@@ -1,12 +1,19 @@
 ---
 permalink: /widgets/testing/widget-test
+previous: /widgets/testing/react-test
 ---
 
 # Write a Unit Test for the Widget's "create" Function
 
-Create a test file `hello-world/tests/createHelloWorldWidget.unit.spec.js` with the following contents:
+Create a test file for the "create" function:
 
-```javascript
+```sh
+touch src/applications/static-pages/hello-world/tests/createHelloWorldWidget.unit.spec.js
+```
+
+Add the following contents to the file:
+
+```jsx
 import React from "react";
 import { render } from "@testing-library/react";
 import { expect } from "chai";
@@ -21,7 +28,7 @@ describe("createHelloWorldWidget", () => {
 
     await createHelloWorldWidget();
 
-    getByText("Hello World");
+    getByText("Hello World!");
   });
 
   it("does not mount the widget when the container is not present", async () => {
@@ -48,5 +55,3 @@ It should pass. These tests should be enough to cover your "create" function beh
 ## You Made It!
 
 Thanks for following along with this tutorial. You now have a basic understanding of how to create a VA.gov React widget.
-
-[Back](./2-react-test.md)
