@@ -1,7 +1,6 @@
 ---
-permalink: /widgets/introduction/widget
-previous: /widgets/introduction/start
-next: /widgets/introduction/static-pages
+previous: /widgets/introduction
+next: /widgets/introduction/2-static-pages
 ---
 
 # What is a VA.gov React Widget?

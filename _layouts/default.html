@@ -34,13 +34,13 @@
 
     <div id="content-wrapper">
       <div class="inner clearfix">
+        {% include breadcrumbs.html %}
         <section id="main-content">
           {{ content }}
           <div class="navigation-buttons">
             {% if page.previous %}
             <a href="{{ page.previous | relative_url }}">Back</a>
-            {% endif %}
-            {% if page.next %}
+            {% endif %} {% if page.next %}
             <a href="{{ page.next | relative_url }}">Continue</a>
             {% endif %}
           </div>

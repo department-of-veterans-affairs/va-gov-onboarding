@@ -1,7 +1,6 @@
 ---
-permalink: /widgets/introduction/static-pages
-previous: /widgets/introduction/widget
-next: /widgets/introduction/conditional-mounting
+previous: /widgets/introduction/1-widget
+next: /widgets/introduction/3-conditional-mounting
 ---
 
 # The static-pages Application

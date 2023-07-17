@@ -1,7 +1,6 @@
 ---
-permalink: /widgets/scaffolding/mount-widget
-previous: /widgets/scaffolding/create-component
-next: /widgets/scaffolding/create-widget
+previous: /widgets/scaffolding/5-create-component
+next: /widgets/scaffolding/7-create-widget
 ---
 
 # Conditionally Mount the Widget

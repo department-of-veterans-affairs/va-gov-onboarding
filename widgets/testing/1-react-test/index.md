@@ -1,7 +1,6 @@
 ---
-permalink: /widgets/testing/react-test
-previous: /widgets/testing/start
-next: /widgets/testing/widget-test
+previous: /widgets/testing
+next: /widgets/testing/2-widget-test
 ---
 
 # Write a Unit Test for the React Component

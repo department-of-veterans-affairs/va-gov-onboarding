@@ -1,7 +1,6 @@
 ---
-permalink: /widgets/introduction/conditional-mounting
-previous: /widgets/introduction/static-pages
-next: /widgets/scaffolding/start
+previous: /widgets/introduction/2-static-pages
+next: /widgets/scaffolding
 ---
 
 # The Conditional Widget Mounting Pattern

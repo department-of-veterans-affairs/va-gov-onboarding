@@ -1,7 +1,6 @@
 ---
-permalink: /widgets/scaffolding/widget-directory
-previous: /widgets/scaffolding/widget-id
-next: /widgets/scaffolding/component-directory
+previous: /widgets/scaffolding/2-widget-id
+next: /widgets/scaffolding/4-component-directory
 ---
 
 # Create a Directory for the Widget

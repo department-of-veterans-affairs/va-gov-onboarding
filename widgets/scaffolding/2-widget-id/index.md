@@ -1,7 +1,6 @@
 ---
-permalink: /widgets/scaffolding/widget-id
-previous: /widgets/scaffolding/feature-branch
-next: /widgets/scaffolding/widget-directory
+previous: /widgets/scaffolding/1-feature-branch
+next: /widgets/scaffolding/3-widget-directory
 ---
 
 # Add a New Widget Identifier

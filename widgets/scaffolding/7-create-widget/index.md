@@ -1,7 +1,6 @@
 ---
-permalink: /widgets/scaffolding/create-widget
-previous: /widgets/scaffolding/mount-widget
-next: /widgets/scaffolding/view-widget
+previous: /widgets/scaffolding/6-mount-widget
+next: /widgets/scaffolding/8-view-widget
 ---
 
 # Call the Widget's "create" Function

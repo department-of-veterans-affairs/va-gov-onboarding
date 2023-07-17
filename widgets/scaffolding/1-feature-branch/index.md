@@ -1,7 +1,6 @@
 ---
-permalink: /widgets/scaffolding/feature-branch
-previous: /widgets/scaffolding/start
-next: /widgets/scaffolding/widget-id
+previous: /widgets/scaffolding
+next: /widgets/scaffolding/2-widget-id
 ---
 
 # Create a Feature Branch

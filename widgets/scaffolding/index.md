@@ -1,7 +1,6 @@
 ---
-permalink: /widgets/scaffolding/start
-previous: /widgets/introduction/conditional-mounting
-next: /widgets/scaffolding/feature-branch
+previous: /widgets/introduction/3-conditional-mounting
+next: /widgets/scaffolding/1-feature-branch
 ---
 
 # Tutorial: Make a New VA.gov React Widget - Scaffolding

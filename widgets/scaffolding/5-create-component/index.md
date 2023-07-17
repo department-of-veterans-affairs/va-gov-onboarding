@@ -1,7 +1,6 @@
 ---
-permalink: /widgets/scaffolding/create-component
-previous: /widgets/scaffolding/component-directory
-next: /widgets/scaffolding/mount-widget
+previous: /widgets/scaffolding/4-component-directory
+next: /widgets/scaffolding/6-mount-widget
 ---
 
 # Create a Basic React Component

@@ -1,6 +1,5 @@
 ---
-permalink: /widgets/testing/widget-test
-previous: /widgets/testing/react-test
+previous: /widgets/testing/1-react-test
 ---
 
 # Write a Unit Test for the Widget's "create" Function

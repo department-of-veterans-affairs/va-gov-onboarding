@@ -1,7 +1,6 @@
 ---
-permalink: /widgets/scaffolding/view-widget
-previous: /widgets/scaffolding/create-widget
-next: /widgets/testing/start
+previous: /widgets/scaffolding/7-create-widget
+next: /widgets/testing
 ---
 
 # View Your Widget

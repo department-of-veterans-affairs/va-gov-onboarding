@@ -1,7 +1,6 @@
 ---
-permalink: /widgets/testing/start
-previous: /widgets/scaffolding/view-widget
-next: /widgets/testing/react-test
+previous: /widgets/scaffolding/8-view-widget
+next: /widgets/testing/1-react-test
 ---
 
 # Tutorial: Make a New VA.gov React Widget - Testing

@@ -1,7 +1,6 @@
 ---
-permalink: /widgets
 previous: /
-next: /widgets/introduction/start
+next: /widgets/introduction
 ---
 
 # Tutorial: Make a New VA.gov React Widget - Setup
