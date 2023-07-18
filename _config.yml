@@ -1,6 +1,6 @@
 title: VA.gov Onboarding
 description: Welcome to VA.gov Onboarding!
-baseurl: /va-gov-onboarding
+
 theme: jekyll-theme-architect
 
 plugins:
