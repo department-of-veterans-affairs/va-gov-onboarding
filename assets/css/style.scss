@@ -2,20 +2,104 @@
 ---
 
 @import "{{ site.theme }}";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 
-$blue: #2879d0;
+$header-bg-color: #122E50;
+$font-family: 'Roboto',Helvetica,Arial,sans-serif;
+
+body {
+    font-family: $font-family;
+    font-weight: 400;
+    color: initial;
+}
+
+header {
+    font-family: $font-family;
+    background: $header-bg-color;
+    background-image: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 0;
+
+    h1 {
+        width: initial;
+        margin: 0;
+        font-size: 2rem;
+        margin-left: 2rem;
+    }
+}
+
+a {
+    color: initial;
+
+    &:hover {
+        color: $header-bg-color;
+    }
+}
+
+#main-content {
+    flex: 3;
+    margin-right: 3rem;
+
+    h1,h2,h3,h4 {
+        color: initial;
+        font-family: $font-family;
+        text-indent: 0;
+        &::before {
+            content: none;
+        }
+    }
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+aside#sidebar {
+    background: none;
+    font-size: initial;
+    flex: 1;
+    padding-left: 0;
+    margin-left: 1rem;
+
+    ul {
+        list-style: none;
+        li {
+            margin: .5rem 0rem;
+        }
+    }
+
+    >ul {
+
+        margin-top: 0;
+
+        li:first-child {
+            margin-top: 0;
+        }
+
+        >li {
+        font-weight: 700;
+        margin: 1rem 0rem;
+        }
+    }
+}
 
 .navigation-buttons {
     display: flex;
     justify-content: flex-end;
+    margin: 5rem 0rem;
     a {
         margin-left: .75rem;
-        border: 1px solid $blue;
+        border: 1px solid $header-bg-color;
         padding: 0.25rem 0.5rem;
-        background-color: $blue;
+        background-color: $header-bg-color;
         color: #fff;
         flex: .1;
         text-align: center;
     }
+}
+
+.inner {
+    display: flex;
+    width: 100%;
 }
 
