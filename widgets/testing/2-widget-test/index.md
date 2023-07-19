@@ -43,13 +43,17 @@ describe("createHelloWorldWidget", () => {
 });
 ```
 
-The above code are two unit tests. The first unit test will:
-1. Render the widget by its data-widget-type that we previously defined in widgetTypes
-2. Check to see if "Hello World!" appears in the application
+The first test above:
 
-The second unit test will:
-1. Render the widget by its data-widget-type of "unknown-widget-type"
-2. Check to see that nothing appears in the application
+1. Renders a `div` with a `data-widget-type` attribute value of `hello-world`
+1. Calls the widget's "create" function (which will mount the widget into the `<div>`)
+1. Verifies that the widget's content is visible
+
+The second test above:
+
+1. Renders a `div` with a `data-widget-type` attribute value of `unknown-widget-type` (which does **not** match the widget's ID)
+1. Calls the widget's "create" function (which will **not** mount the widget in the `<div>`)
+1. Verifies that the widget's content is **not** visible
 
 Run the test:
 

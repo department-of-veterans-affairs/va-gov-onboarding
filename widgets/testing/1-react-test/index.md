@@ -33,9 +33,10 @@ describe("HelloWorldWidget", () => {
 });
 ```
 
-The above code is a standard unit test that will:
-1. Renders our Hello World widget
-2. Checks to see if the text "Hello World!" appears
+The test above:
+
+1. Renders the `HelloWorldWidget` React component
+1. Verifies that the widget's content is visible
 
 Run the test:
 
