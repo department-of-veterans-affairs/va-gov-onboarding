@@ -1,5 +1,5 @@
 ---
-previous: /widgets/introduction/2-static-pages
+previous: /widgets/introduction/3-static-pages
 next: /widgets/scaffolding
 ---
 
@@ -8,8 +8,8 @@ next: /widgets/scaffolding
 Widgets are conditionally mounted into a `<div>` on a static content page using a standard pattern:
 
 1. Each widget implements a "create" function that searches for a `<div>` based on a unique, `data-widget-type` attribute value, e.g.: `<div data-widget-type="hello-world"/>`.
-    - If the `<div>` is not found the function does not mount the widget
-    - Otherwise, the function loads the widget's bundle and then mounts the widget
+   - If the `<div>` is not found the function does not mount the widget
+   - Otherwise, the function loads the widget's bundle and then mounts the widget
 1. The `static-pages` application is responsible for calling every widget's "create" function
 1. The `static-pages.entry.js` bundle is loaded on every static content page
 

@@ -1,28 +1,15 @@
 ---
 previous: /widgets
-next: /widgets/introduction/1-widget
+next: /widgets/introduction/1-local-env-setup
 ---
 
-# Tutorial: Make a New VA.gov React Widget - Introduction
-
-As a frontend developer <br />
-I want to learn how to make a VA.gov React widget <br />
-So that I can understand how to build one of the types of features on VA.gov
-
-**Acceptance Criteria**
-
-1.  I can view a new "Hello World" widget when I run `vets-website` locally
-1.  I understand how to develop a widget
-
-## Prerequisites
-
-1.  Your local development environment is set up to run `vets-website` locally
-1.  Familiarity with JavaScript, JavaScript bundling, React, and the DOM
+# Introduction
 
 ## What this section covers
 
 This section will cover the following topics:
 
+- Local environment setup
 - What is a VA.gov React Widget?
 - The Static-Pages Application
 - The Conditional Widget Mounting Pattern

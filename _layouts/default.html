@@ -44,6 +44,43 @@
             {% endif %}
           </div>
         </section>
+        <aside id="sidebar">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <ul>
+              <li><a href="{{'/widgets/' | relative_url}}">Tutorial: Make a New VA.gov React Widget</a></li>
+              <ul>
+                <li><a href="{{'/widgets/introduction' | relative_url}}">Introduction</a></li>
+                <ul>
+                <li><a href="{{'/widgets/introduction/1-local-env-setup' | relative_url}}">Local Environment Setup</a></li>
+                <li><a href="{{'/widgets/introduction/2-widget' | relative_url}}">What is a VA.gov React Widget?</a></li>
+                <li><a href="{{'/widgets/introduction/3-static-pages' | relative_url}}">The static-pages Application</a></li>
+                <li><a href="{{'/widgets/introduction/4-conditional-mounting' | relative_url}}">The Conditional Widget Mounting Pattern</a></li>
+                </ul>
+              </ul>
+              <ul>
+                <li><a href="{{'/widgets/scaffolding' | relative_url}}">Scaffolding</a></li>
+                <ul>
+                  <li><a href="{{'/widgets/scaffolding/1-feature-branch' | relative_url}}">Create a Feature Branch</a></li>
+                  <li><a href="{{'/widgets/scaffolding/2-widget-id' | relative_url}}">Add a New Widget Identifier</a></li>
+                  <li><a href="{{'/widgets/scaffolding/3-widget-directory' | relative_url}}">Create a Directory for the Widget</a></li>
+                  <li><a href="{{'/widgets/scaffolding/4-component-directory' | relative_url}}">Create a Directory for the React Component</a></li>
+                  <li><a href="{{'/widgets/scaffolding/5-create-component' | relative_url}}">Create a Basic React Component</a></li>
+                  <li><a href="{{'/widgets/scaffolding/6-mount-widget' | relative_url}}">Conditionally Mount the Widget</a></li>
+                  <li><a href="{{'/widgets/scaffolding/7-create-widget' | relative_url}}">Call the Widget's "create" Function</a></li>
+                  <li><a href="{{'/widgets/scaffolding/8-view-widget' | relative_url}}">View Your Widget</a></li>
+                </ul>
+              </ul>
+              <ul>
+                <li><a href="{{'/widgets/testing' | relative_url}}">Testing</a></li>
+                <ul>
+                  <li><a href="{{'/widgets/testing/1-react-test' | relative_url}}">Write a Unit Test for the React Component</a></li>
+                  <li><a href="{{'/widgets/testing/2-widget-test' | relative_url}}">Write a Unit Test for the Widget's "create" Function</a></li>
+                </ul>
+              </ul>
+            </ul>
+          </ul>
+        </aside>
       </div>
     </div>
   </body>

@@ -3,44 +3,13 @@ previous: /
 next: /widgets/introduction
 ---
 
-# Tutorial: Make a New VA.gov React Widget - Setup
+# Tutorial: Make a New VA.gov React Widget
 
-## Step 1: Install NVM (Node Version Manager)
+As a frontend developer <br />
+I want to learn how to make a VA.gov React widget <br />
+So that I can understand how to build one of the types of features on VA.gov
 
-1. Use `nvm` to manage `node`. Follow the [install instructions](https://github.com/nvm-sh/nvm#installing-and-updating).
+**Acceptance Criteria**
 
-## Step 2: Clone the VA.gov `vets-website` repository
-
-```bash
-git clone https://github.com/department-of-veterans-affairs/vets-website.git
-```
-
-## Step 3: Install Node and Yarn
-
-Install `node`:
-
-```bash
-cd vets-website
-```
-
-```bash
-nvm install
-```
-
-Install `yarn` globally:
-
-```bash
-npm install -g yarn
-```
-
-## Step 4: Install Dependencies and Run `vets-website`:
-
-```bash
-yarn install
-```
-
-```bash
-yarn watch --env entry=static-pages
-```
-
-To view the app open [http://localhost:3001](http://localhost:3001)
+1.  I can view a new "Hello World" widget when I run `vets-website` locally
+1.  I understand how to develop a widget

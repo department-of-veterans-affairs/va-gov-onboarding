@@ -1,6 +1,6 @@
 ---
-previous: /widgets/introduction
-next: /widgets/introduction/2-static-pages
+previous: /widgets/introduction/1-local-env-setup
+next: /widgets/introduction/3-static-pages
 ---
 
 # What is a VA.gov React Widget?

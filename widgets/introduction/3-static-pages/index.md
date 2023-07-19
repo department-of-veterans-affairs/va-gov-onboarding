@@ -1,6 +1,6 @@
 ---
-previous: /widgets/introduction/1-widget
-next: /widgets/introduction/3-conditional-mounting
+previous: /widgets/introduction/2-widget
+next: /widgets/introduction/4-conditional-mounting
 ---
 
 # The static-pages Application
