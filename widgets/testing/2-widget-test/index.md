@@ -43,13 +43,21 @@ describe("createHelloWorldWidget", () => {
 });
 ```
 
+The above code are two unit tests. The first unit test will:
+1. Render the widget by its data-widget-type that we previously defined in widgetTypes
+2. Check to see if "Hello World!" appears in the application
+
+The second unit test will:
+1. Render the widget by its data-widget-type of "unknown-widget-type"
+2. Check to see that nothing appears in the application
+
 Run the test:
 
 ```sh
 yarn test:unit src/applications/static-pages/hello-world/tests/createHelloWorldWidget.unit.spec.js
 ```
 
-It should pass. These tests should be enough to cover your "create" function behavior.
+They should pass. These tests should be enough to cover your "create" function behavior.
 
 ## You Made It!
 
