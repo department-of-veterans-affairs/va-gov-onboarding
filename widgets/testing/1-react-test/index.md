@@ -33,6 +33,10 @@ describe("HelloWorldWidget", () => {
 });
 ```
 
+The above code is a standard unit test that will:
+1. Renders our Hello World widget
+2. Checks to see if the text "Hello World!" appears
+
 Run the test:
 
 ```sh
