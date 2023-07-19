@@ -3,7 +3,7 @@ previous: /widgets/scaffolding/6-mount-widget
 next: /widgets/scaffolding/8-view-widget
 ---
 
-# Call the Widget's "create" Function
+# Call the Widget's "Create" Function
 
 Update the `src/applications/static-pages/static-pages-entry.js` file by importing your new `createHelloWorldWidget` function, and calling it:
 
