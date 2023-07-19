@@ -3,7 +3,7 @@ previous: /widgets/introduction/2-widget
 next: /widgets/introduction/4-conditional-mounting
 ---
 
-# The Static-pages Application
+# The `static-pages` Application
 
 Within `vets-website` there is an application called `static-pages`. Widgets are defined in subdirectories of the `static-pages` application.
 
