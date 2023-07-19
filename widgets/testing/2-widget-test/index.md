@@ -2,7 +2,7 @@
 previous: /widgets/testing/1-react-test
 ---
 
-# Write a Unit Test for the Widget's "create" Function
+# Write a Unit Test for the Widget's "Create" Function
 
 Create a test file for the "create" function:
 
