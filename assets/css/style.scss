@@ -32,9 +32,8 @@ header {
 
 a {
     color: initial;
-
     &:hover {
-        color: $header-bg-color;
+        color: initial;
     }
 }
 
@@ -74,14 +73,21 @@ aside#sidebar {
     ul {
         list-style: none;
         li {
-            margin: .5rem 0rem;
+            margin: .1rem 0rem;
+
+            .nav-link {
+                width: 75%;
+                padding: .5rem;
+                &:hover {
+                    background-color: #e8e9ee;
+                    cursor: pointer;
+                }
+            }
         }
     }
 
     >ul {
-
         margin-top: 0;
-
         li:first-child {
             margin-top: 0;
         }
