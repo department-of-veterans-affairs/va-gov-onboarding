@@ -5,8 +5,6 @@ next: /widgets/scaffolding/1-feature-branch
 
 # Scaffolding
 
-All work will take place within the `vets-website` repository.
-
 ## What this Section Covers
 
 This section will cover the following topics:
@@ -19,3 +17,5 @@ This section will cover the following topics:
 - Conditionally Mount the Widget
 - Call the Widget's "create" Function
 - View Your Widget
+
+All work will take place within the `vets-website` repository.
